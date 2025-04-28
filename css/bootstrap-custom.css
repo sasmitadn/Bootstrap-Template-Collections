@@ -1,0 +1,103 @@
+/* Bootstrap Custom CSS
+ * This file contains custom styles for the Bootstrap framework.
+ * It overrides some default styles and adds custom colors and effects.
+ */
+
+:root {
+    --bs-primary: #ff7f00;
+    /* Orange */
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    --bs-info: #17a2b8;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+    --bs-body-bg: #ffffff;
+    --bs-body-color: #212529;
+}
+
+.bg-light {
+    background-color: var(--bs-light) !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid;
+    border-radius: 2px;
+    color: var(--bs-primary);
+}
+
+.navbar-nav .nav-item {
+    margin: 0px 10px 0px 10px;
+}
+
+.navbar-nav .nav-link {
+    padding: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--bs-primary) !important;
+}
+
+.dropdown-item:active {
+    background-color: var(--bs-primary) !important;
+    color: #fff !important;
+}
+
+.dropdown-divider {
+    margin: 0px;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: var(--bs-light) !important;
+    cursor: pointer;
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+.card {
+    border: 1px solid var(--bs-primary);
+    border-radius: 0.5rem;
+    width: max-content;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: #fff;
+}
